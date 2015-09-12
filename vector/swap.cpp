@@ -1,0 +1,45 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main(){
+	vector<int> v1;
+
+	v1.push_back(1);
+	v1.push_back(2);
+	v1.push_back(3);
+
+	vector<int> v2;
+	v2.push_back(10);
+	v2.push_back(20);
+	v2.push_back(30);
+	v2.push_back(40);
+	v2.push_back(50);
+
+	int Count = v1.size();
+	for(int i=0; i<Count; ++i){
+		cout << "v1 : " << v1[i] << endl;
+	}
+	cout << endl;
+
+	Count = v2.size();
+	for(int i=0; i<Count; ++i){
+		cout << "v2 : " << v2[i] << endl;
+	}
+	cout << endl;
+
+	cout << "v1 and v2 swapping!!!" << endl << endl;
+	
+	v1.swap(v2);
+	Count = v1.size();
+	for(int i=0; i<Count; ++i){
+		cout << "v1 : " << v1[i] << endl;
+	}
+	cout << endl;
+
+	Count = v2.size();
+	for(int i=0; i<Count; ++i){
+		cout << "v2 : " << v2[i] << endl;
+	}
+	return 0;
+}
