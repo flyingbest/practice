@@ -10,3 +10,9 @@ int main(){
 void printlist(){
 	cout << "printlist" << endl;
 }
+
+
+// 새로 commit 하고 commit message 수정하기 위해 생성한 코드
+void push(){
+	
+}
