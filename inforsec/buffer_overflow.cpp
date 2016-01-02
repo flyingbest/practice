@@ -16,6 +16,7 @@ int main(int argc, char* argv[]){
 		valid = true;
 	}
 	printf("buffer1 : str1(%s), str2(%s), valid(%d)\n", str1, str2, valid);
+	printf("checkpoint\n");
 	
 	return 0;
 }
