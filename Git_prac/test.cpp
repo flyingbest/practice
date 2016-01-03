@@ -18,6 +18,7 @@ void printlist(Node* head){
 
 int main(){
 	cout << " test " << endl;
+	cout << " check point " << endl;
 	return 0;
 }
 
